@@ -1,4 +1,3 @@
-import {ListPagination} from "@/src/components/ListPagination";
 import {ListCarousel} from "@/src/components/ListCarousel";
 
 export function ListSection({ title, children }: Readonly<{ title: string, children: React.ReactNode }>) {
