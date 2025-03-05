@@ -11,13 +11,11 @@ export function Card({ variant = "large" }: { variant: 'small' | 'large' }) {
                     <Link href="/test" className="flex">
                         <Image src={previewImage} alt="Image preview" className="group-hover:opacity-85 w-full object-cover rounded-sm border border-slate-950/10 dark:border-slate-50/20 transition-all" />
                     </Link>
-                )
-                }
+                )}
 
                 { variant === 'small' && (
                     <Image src={previewImage} alt="Image preview" className="w-full object-cover rounded-sm border border-slate-950/10 dark:border-slate-50/20" />
-                )
-                }
+                )}
             </div>
 
             { variant === 'large' && (

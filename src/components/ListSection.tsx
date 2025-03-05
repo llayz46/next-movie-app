@@ -1,4 +1,5 @@
 import {ListPagination} from "@/src/components/ListPagination";
+import {ListCarousel} from "@/src/components/ListCarousel";
 
 export function ListSection({ title, children }: Readonly<{ title: string, children: React.ReactNode }>) {
     return (
@@ -8,11 +9,11 @@ export function ListSection({ title, children }: Readonly<{ title: string, child
                 <p className="text-base text-neutral-500 dark:text-neutral-300">Voir plus</p>
             </div>
 
-            <div className="flex gap-3">
-                {children}
+            <div className="flex">
+                <ListCarousel>
+                    {children}
+                </ListCarousel>
             </div>
-
-            <ListPagination />
         </section>
     )
 }

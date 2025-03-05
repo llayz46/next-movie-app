@@ -10,19 +10,28 @@ export default function Home() {
             <Image src={previewImage} alt="Image preview" className="w-full aspect-12/5 object-cover rounded-lg border border-slate-950/10 dark:border-slate-50/20" />
 
             <ListSection title="Films Populaire">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
             </ListSection>
 
             <ListSection title="Series Populaire">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
+                <Card variant={'large'} />
             </ListSection>
         </div>
     );
