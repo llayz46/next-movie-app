@@ -11,6 +11,9 @@ importers:
       '@headlessui/react':
         specifier: ^2.2.0
         version: 2.2.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      embla-carousel:
+        specifier: ^8.5.2
+        version: 8.5.2
       embla-carousel-react:
         specifier: ^8.5.2
         version: 8.5.2(react@19.0.0)
