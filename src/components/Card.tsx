@@ -6,10 +6,10 @@ import Link from "next/link";
 export function Card({ variant = "large" }: { variant: 'small' | 'large' }) {
     return (
         <div className="max-w-64">
-            <div className="bg-slate-950/5 dark:bg-slate-50/15 rounded-md border border-slate-950/10 dark:border-slate-50/20 p-1 w-fit shadow-md">
+            <div className="group bg-slate-950/5 dark:bg-slate-50/15 rounded-md border border-slate-950/10 dark:border-slate-50/20 p-1 w-fit shadow-md">
                 { variant === 'large' && (
                     <Link href="/test" className="flex">
-                        <Image src={previewImage} alt="Image preview" className="w-full object-cover rounded-sm border border-slate-950/10 dark:border-slate-50/20" />
+                        <Image src={previewImage} alt="Image preview" className="group-hover:opacity-85 w-full object-cover rounded-sm border border-slate-950/10 dark:border-slate-50/20 transition-all" />
                     </Link>
                 )
                 }
